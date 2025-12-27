@@ -1,0 +1,8 @@
+# Built binary
+/elastui
+
+# Editor/OS noise
+.DS_Store
+.idea/
+.vscode/
+*.swp
