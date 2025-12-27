@@ -61,13 +61,13 @@ The document creator expects valid JSON. After each create/delete operation the 
 ## Screenshots
 
 ### Index list
-![Index list](assets/screenshots/main_page.png)
+![Index list](docs/main_page.png)
 
 ### Documents list with previews
-![Documents list](assets/screenshots/listing.png)
+![Documents list](docs/listing.png)
 
 ### Document detail view
-![Document detail](assets/screenshots/details.png)
+![Document detail](docs/details.png)
 
 ### Query syntax
 
@@ -79,3 +79,7 @@ The document creator expects valid JSON. After each create/delete operation the 
 
 - The document view currently fetches the first 20 hits sorted by the natural order returned by Elasticsearch. Pagination can be added later if needed.
 - Errors from Elasticsearch are surfaced in the status bar so issues such as authentication failures or invalid JSON bodies are easy to spot.
+
+## License
+
+[Unlicense](LICENSE) — public domain dedication. Fork, modify, and use without restriction.
