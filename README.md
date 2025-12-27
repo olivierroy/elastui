@@ -39,6 +39,11 @@ go build -o elastui .
 
 # Install via Go toolchain
 go install github.com/olivier/elastui@latest
+
+# Download prebuilt binaries (Linux/macOS/Windows, amd64 & arm64) from GitHub Releases
+
+# Demo mode without a cluster (loads mock indices/documents for screenshots)
+./elastui --mock-data
 ```
 
 Key bindings:
@@ -52,6 +57,17 @@ Key bindings:
 - `esc` – go back/cancel forms.
 
 The document creator expects valid JSON. After each create/delete operation the UI automatically issues an index refresh so newly written data is immediately visible.
+
+## Screenshots
+
+### Index list
+![Index list](assets/screenshots/main_page.png)
+
+### Documents list with previews
+![Documents list](assets/screenshots/listing.png)
+
+### Document detail view
+![Document detail](assets/screenshots/details.png)
 
 ### Query syntax
 
